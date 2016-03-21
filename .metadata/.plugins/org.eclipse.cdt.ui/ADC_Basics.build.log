@@ -1,0 +1,42 @@
+13:19:13 **** Build of configuration Release for project ADC_Basics ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ADC_Basics.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_Basics.map -mmcu=atmega32 -o "ADC_Basics.elf"  ./main.o   
+Finished building target: ADC_Basics.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_Basics.elf  >"ADC_Basics.lss"
+Finished building: ADC_Basics.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ADC_Basics.elf  "ADC_Basics.hex"
+Finished building: ADC_Basics.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex ADC_Basics.elf  "ADC_Basics.eep"
+Finished building: ADC_Basics.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_Basics.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     154 bytes (0.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+13:19:14 Build Finished (took 120ms)
+
