@@ -1,7 +1,0 @@
-12:19:57 **** Clean-only build of configuration Release for project Led Blink ****
-make clean 
-rm -rf  Led\ Blink.hex  ./main.o  Led\ Blink.eep  avrdudedummy  sizedummy  Led\ Blink.lss  ./main.d  "Led Blink.elf"
- 
-
-12:19:57 Build Finished (took 62ms)
-

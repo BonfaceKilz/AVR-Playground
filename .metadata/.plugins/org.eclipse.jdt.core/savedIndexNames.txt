@@ -1,2 +1,0 @@
-INDEX VERSION 1.126+/home/bonface/workspace/.metadata/.plugins/org.eclipse.jdt.core
-4219048035.index

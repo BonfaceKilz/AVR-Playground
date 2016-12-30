@@ -1,7 +1,0 @@
-13:19:04 **** Clean-only build of configuration Release for project Led_Basic ****
-make clean 
-rm -rf  Led_Basic.hex  ./main.o  Led_Basic.eep  sizedummy  Led_Basic.lss  ./main.d  Led_Basic.elf
- 
-
-13:19:04 Build Finished (took 61ms)
-
