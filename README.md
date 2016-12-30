@@ -1,2 +1,2 @@
-# AVR-Playground
-This repo contains source-code for some AVR projects that I have been working on.
+# Introduction
+This is a play ground. This repo contains some very random things that regard AVR. This is just some ninja fooling around with electronics :). Schematics are included.
