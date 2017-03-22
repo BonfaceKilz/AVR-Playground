@@ -9,3 +9,5 @@ This is a play ground. This repo contains some very random things that regard AV
 5. http://www.procyonengineering.com/embedded/avr/avrlib/    
 6. http://avrbeginners.net/  
 7. http://www.engbedded.com/fusecalc/    
+8. http://www.falstad.com/circuit/e-index.html
+9. http://www.build-electronic-circuits.com/simple-electronic-circuits/
