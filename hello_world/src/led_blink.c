@@ -12,7 +12,8 @@
 #define set_input(portdir, pin) portdir &= ~(1<<pin)
 #define set_output(portdir, pin) portdir |= (1<<pin)
 
-int main(void){
+int main(void)
+{
         set_output(DDRD, LED);
 
         while(1){
