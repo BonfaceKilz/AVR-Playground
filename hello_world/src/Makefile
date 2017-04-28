@@ -15,9 +15,9 @@
 #                   default_serial = "avrdoper"
 # FUSES ........ Parameters for avrdude to flash the fuses appropriately.
 
-DEVICE     = atmega328p
+DEVICE     = atmega8
 CLOCK      = 1000000
-PROGRAMMER = -c usbtiny -p atmega328p
+PROGRAMMER = -c usbtiny -p atmega8
 OBJECTS    = led_blink.o
 FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x62:m
 
